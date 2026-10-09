@@ -14,7 +14,7 @@ date,python,java,isPartial
 
 (Real values from a cloud test run on 2026-10-08: python compared with java on YouTube search, United Kingdom, past 12 months.)
 
-**Update 2026-10-10:** since 2026-10-09 Google has refused some of our Actor's requests with HTTP 429 too. On our bench of 2026-10-09 19:43 UTC (build 0.1.15) it returned data in 0 of 2 cases, both as uncharged error rows; in the same run the most-used Trends Actor returned data in 1 of 2 and the fast alternative in 2 of 2. The measurements further down are from 2026-10-08. The Actor does not rotate IPs or cookies to get around a refusal, so expect refused terms on some runs. We will update this README after the next bench.
+**Update 2026-10-10:** on 2026-10-09 Google refused some of our Actor's requests with HTTP 429 too, and our bench of 19:43 UTC (build 0.1.15) got data in 0 of 2 cases. Build 0.1.16 waits out a 429 within a fixed time budget instead of stopping at the first one; its bench at 2026-10-09 21:40 UTC got data in 2 of 2 cases and matched 6 of 6 hand-checked facts, vs 4 of 6 for the fast alternative and 2 of 6 for the most-used Trends Actor. The Actor still never rotates IPs or cookies to get around a refusal, so expect refused terms on some runs (they cost nothing). The measurements further down are from 2026-10-08.
 
 ## Run it
 
