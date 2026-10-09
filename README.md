@@ -14,6 +14,8 @@ date,python,java,isPartial
 
 (Real values from a cloud test run on 2026-10-08: python compared with java on YouTube search, United Kingdom, past 12 months.)
 
+**Update 2026-10-10:** since 2026-10-09 Google has refused some of our Actor's requests with HTTP 429 too. On our bench of 2026-10-09 19:43 UTC (build 0.1.15) it returned data in 0 of 2 cases, both as uncharged error rows; in the same run the most-used Trends Actor returned data in 1 of 2 and the fast alternative in 2 of 2. The measurements further down are from 2026-10-08. The Actor does not rotate IPs or cookies to get around a refusal, so expect refused terms on some runs. We will update this README after the next bench.
+
 ## Run it
 
 You need an Apify account (the free plan includes $5 of usage a month) and its API token from Apify Console > Settings > API & Integrations.
