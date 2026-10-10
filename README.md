@@ -14,7 +14,9 @@ date,python,java,isPartial
 
 (Real values from a cloud test run on 2026-10-08: python compared with java on YouTube search, United Kingdom, past 12 months.)
 
-**Update 2026-10-10:** on 2026-10-09 Google refused some of our Actor's requests with HTTP 429 too, and our bench of 19:43 UTC (build 0.1.15) got data in 0 of 2 cases. Build 0.1.16 waits out a 429 within a fixed time budget instead of stopping at the first one; its bench at 2026-10-09 21:40 UTC got data in 2 of 2 cases and matched 6 of 6 hand-checked facts, vs 4 of 6 for the fast alternative and 2 of 6 for the most-used Trends Actor. The Actor still never rotates IPs or cookies to get around a refusal, so expect refused terms on some runs (they cost nothing). The measurements further down are from 2026-10-08.
+![Real output rows from our board's test runs on 2026-10-09: python vs java on YouTube search in the UK, coffee by UK city, python by US state](media/google-trends/readme.gif)
+
+[Watch the walkthrough (MP4)](media/google-trends/walkthrough.mp4)
 
 ## Run it
 
@@ -66,18 +68,21 @@ $1.90 per 1,000 search terms on Apify's free plan, less on paid plans, plus Apif
 
 ## What we measured
 
-Our board's test bench gave this Actor and the two most-used Google Trends Actors on the Apify Store the same two jobs, and checked each answer against facts read by hand on trends.google.com: `python` in the United States over 12 months (a timeline exists, Wyoming is in the state list, "python code" is a top related query), and `python` compared with `java` on YouTube search in the United Kingdom (a timeline exists, England is in the region list, the row says what it was compared with).
+Our board's test bench gives this Actor and the two most-used Google Trends Actors on the Apify Store the same two jobs, and checks each answer against facts read by hand on trends.google.com: `python` in the United States over 12 months (a timeline exists, Wyoming is in the state list, "python code" is among the top related queries), and `python` compared with `java` on YouTube search in the United Kingdom (a timeline exists, England is in the region list, the row says what it was compared with). Bench run 2026-10-09 21:40 UTC, build 0.1.16:
 
-Bench run 2026-10-08 22:31 UTC, our build 0.1.13:
-
-| | This Actor | Most-used Trends Actor | Popular fast alternative |
+| | This Actor | Popular fast alternative | Most-used Google Trends Actor |
 |---|---|---|---|
-| Runs that finished with data | 2 of 2 (7.2 s, 5.3 s) | 0 of 2 (both timed out at 300 s) | 2 of 2 (4.7 s, 23.7 s) |
-| Checks matched | 6 of 6 | 0 of 6 | 4 of 6 |
-| Fields filled | 88% | 0% | 75% |
-| Price per 1,000 terms in these runs (Starter plan) | $1.74 | no data returned | $21.00 (one term per run, plus a start fee per run) |
+| Facts matched | 6 of 6 | 4 of 6 | 2 of 6 |
+| Jobs finished with data | 2 of 2 | 2 of 2 | 1 of 2 (one run timed out at 300 s) |
+| Fields filled | 88% | 75% | 50% |
+| Run time per job | 11.1 to 14.9 s | 4.7 to 6.8 s | 103.7 s, and a 300 s timeout |
+| Price per 1,000 terms in these runs | $1.74 | $21.00 (one term per run, start fee per run) | $1.00 |
 
-Two cases are a small sample, so read this as a measurement, not a guarantee. The bench runs again after every new build.
+The fast alternative is quicker, and the most-used Actor costs less per result when it finishes. Apify's public Store stats for the most-used Actor: 13,041 of its 22,909 runs in the last 30 days succeeded (57%), and 5,221 timed out (read 2026-10-10).
+
+Google refuses some requests with HTTP 429. On 2026-10-09 it refused some of this Actor's too: the bench of 19:43 UTC (build 0.1.15) got data in 0 of 2 jobs. Build 0.1.16 waits out a 429 within a fixed time budget instead of stopping at the first one, and the board's daily health check of 2026-10-10 18:35 UTC returned data for all 3 test terms. The Actor never rotates IPs or cookies to get around a refusal, so expect refused terms on some runs; refused terms cost nothing.
+
+Two jobs are a small sample, so read this as a measurement, not a guarantee. The bench runs again after every new build.
 
 ## Limits
 
