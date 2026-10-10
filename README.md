@@ -87,7 +87,7 @@ Two jobs are a small sample, so read this as a measurement, not a guarantee. The
 ## Limits
 
 - Trends values are relative (0 to 100) and sampled, not search volumes. Repeated requests can differ slightly.
-- Google can throttle these unofficial endpoints for any client. When Google refuses a request, the Actor stops asking for the rest of the run instead of rotating IPs or cookies, keeps the terms it finished, and returns the rest as uncharged error rows. The examples print them; run those terms again later.
+- Google can throttle these unofficial endpoints for any client. On a plain HTTP 429 the Actor waits (at most twice per run, within a 160-second budget); on any other refusal, or when that budget runs out, it stops asking for the rest of the run instead of rotating IPs or cookies, keeps the terms it finished, and returns the rest as uncharged error rows. The examples print them; run those terms again later.
 - Related topics came back empty in all our cloud tests, so these examples do not use them.
 
 ## Notes
