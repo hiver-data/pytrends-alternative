@@ -2,10 +2,17 @@
   "name": "google-trends-to-csv",
   "version": "1.0.0",
   "private": true,
-  "description": "Google Trends interest over time, by region and related queries to CSV via the hiver/google-trends-scraper Apify Actor (pytrends alternative)",
+  "description": "Google Trends to CSV via the hiver/google-trends-scraper Apify Actor (pytrends and google-trends-api alternative, incl. Trending Now)",
   "type": "module",
-  "engines": { "node": ">=18.3" },
-  "scripts": { "start": "node trends-to-csv.mjs" },
-  "dependencies": { "apify-client": "^2.25.0" },
+  "engines": {
+    "node": ">=18.3"
+  },
+  "scripts": {
+    "start": "node trends-to-csv.mjs",
+    "trending": "node trending-to-csv.mjs"
+  },
+  "dependencies": {
+    "apify-client": "^2.25.0"
+  },
   "license": "MIT"
 }

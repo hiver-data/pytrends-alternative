@@ -4,6 +4,8 @@ pytrends keeps failing with `TooManyRequestsError: The request failed: Google re
 
 This repo has runnable Python and Node.js examples that get the same data, interest over time, interest by region and related queries, through [Google Trends Scraper & API: pytrends Alternative](https://apify.com/hiver/google-trends-scraper?utm_source=github&utm_campaign=pytrends-alternative), an Apify Actor built by hiver. One call takes a whole list of search terms and returns one row per term.
 
+Trending searches too: pytrends' `trending_searches()` and google-trends-api's `dailyTrends()` now get HTTP 404 from Google (checked 2026-10-12). [`trending_to_csv.py` / `trending-to-csv.mjs`](#trending_searches-or-dailytrends-returns-404) return Google's Trending Now list for any countries, with search volume and news links.
+
 ```
 timeline.csv
 date,python,java,isPartial
@@ -61,6 +63,37 @@ No code: open the [Actor page](https://apify.com/hiver/google-trends-scraper?utm
 | `interest_by_region(resolution=...)` | `interestByRegion` with `regionResolution` |
 | `related_queries()` | `relatedQueries.top` and `relatedQueries.rising` |
 | `trending_searches(pn=...)` | `trendingGeos` (Trending Now by country) |
+
+## trending_searches() or dailyTrends() returns 404?
+
+Google no longer serves the old daily-trends and real-time-trends endpoints these libraries call (it moved trending searches to its Trending Now page). We checked on 2026-10-12 from one server:
+
+- **pytrends 4.9.2:** `trending_searches()`, `realtime_trending_searches()` and `today_searches()` each raised `ResponseError: ... code 404` (3 of 3 calls). Its interest-over-time calls still work.
+- **google-trends-api 4.9.2 (npm):** `dailyTrends()` and `realTimeTrends()` got Google's HTML 404 page on 11 of 11 calls (US, GB, DE). The library resolves the promise with that HTML, so your `JSON.parse` throws `SyntaxError: Unexpected token '<', "<!doctype "... is not valid JSON`. In the same session `interestOverTime()`, `interestByRegion()` and `relatedQueries()` returned JSON. The open issue is [pat310/google-trends-api#175](https://github.com/pat310/google-trends-api/issues/175).
+- **Google's RSS feed** `trends.google.com/trending/rss?geo=US` still answers (HTTP 200), with the 10 newest trending searches per country and about 3 news links each (10, 10 and 10 items for US, GB and DE).
+
+`trending_to_csv.py` and `trending-to-csv.mjs` replace those calls. They ask the Actor for Trending Now in any list of countries and write two files:
+
+```bash
+python python/trending_to_csv.py US GB DE --hours 24 --max-per-country 25
+node node/trending-to-csv.mjs US GB DE --hours 24 --max-per-country 25 --category sports
+```
+
+| File | Columns |
+|---|---|
+| `trending.csv` | geo, trend, searchVolume, searchVolumeLabel, increasePercent, startedAt, endedAt, isActive, categories, relatedSearches |
+| `trending_news.csv` | geo, trend, title, url, source (up to 3 links per trend, from the trend's panel on Google's Trending Now page) |
+
+Real rows from the board's test run of build 0.1.19 (2026-10-12 13:28 UTC, run ra2MPx1HO1ZfXJSEs, 3 US trends asked):
+
+```
+geo,trend,searchVolume,searchVolumeLabel,increasePercent,startedAt,endedAt,isActive,categories
+US,falcons vs ravens,500000,500K+,1000,2026-10-11T15:20:00Z,,true,Sports
+US,mike evans,500000,500K+,1000,2026-10-11T23:00:00Z,,true,Sports
+US,bears,500000,500K+,1000,2026-10-11T17:20:00Z,2026-10-11T21:10:00Z,false,Sports
+```
+
+All 3 came with 3 news links each (ESPN, NBC Sports, CBS Sports and others). `--hours` takes 4, 24, 48 or 168 (7 days), `--category` keeps only some of Google's 18 Trending Now categories, and `--no-news` skips the links. Trending searches cost $0.80 per 1,000 on Apify's free plan; news links cost nothing extra. Three countries, 25 trends each, once a day is about 2,250 trending searches a month, about $1.80.
 
 ## What it costs
 
