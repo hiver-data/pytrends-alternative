@@ -1,0 +1,1710 @@
+{
+  "source": "ra2MPx1HO1ZfXJSEs",
+  "exported_at": "2026-10-12T13:30Z",
+  "rows": [
+    {
+      "searchTerm": "python",
+      "comparedWith": [
+        "java"
+      ],
+      "geo": "GB",
+      "timeRange": "today 12-m",
+      "category": 0,
+      "searchProperty": "youtube",
+      "warnings": null,
+      "interestOverTime": [
+        {
+          "date": "2025-10-12T00:00:00Z",
+          "timestamp": 1760227200,
+          "label": "Oct 12 - 18, 2025",
+          "value": 71,
+          "hasData": true,
+          "isPartial": false
+        },
+        {
+          "date": "2025-10-19T00:00:00Z",
+          "timestamp": 1760832000,
+          "label": "Oct 19 - 25, 2025",
+          "value": 62,
+          "hasData": true,
+          "isPartial": false
+        },
+        {
+          "date": "2025-10-26T00:00:00Z",
+          "timestamp": 1761436800,
+          "label": "Oct 26 - Nov 1, 2025",
+          "value": 63,
+          "hasData": true,
+          "isPartial": false
+        },
+        {
+          "date": "2025-11-02T00:00:00Z",
+          "timestamp": 1762041600,
+          "label": "Nov 2 - 8, 2025",
+          "value": 67,
+          "hasData": true,
+          "isPartial": false
+        },
+        {
+          "date": "2025-11-09T00:00:00Z",
+          "timestamp": 1762646400,
+          "label": "Nov 9 - 15, 2025",
+          "value": 66,
+          "hasData": true,
+          "isPartial": false
+        },
+        {
+          "date": "2025-11-16T00:00:00Z",
+          "timestamp": 1763251200,
+          "label": "Nov 16 - 22, 2025",
+          "value": 72,
+          "hasData": true,
+          "isPartial": false
+        },
+        {
+          "date": "2025-11-23T00:00:00Z",
+          "timestamp": 1763856000,
+          "label": "Nov 23 - 29, 2025",
+          "value": 68,
+          "hasData": true,
+          "isPartial": false
+        },
+        {
+          "date": "2025-11-30T00:00:00Z",
+          "timestamp": 1764460800,
+          "label": "Nov 30 - Dec 6, 2025",
+          "value": 69,
+          "hasData": true,
+          "isPartial": false
+        },
+        {
+          "date": "2025-12-07T00:00:00Z",
+          "timestamp": 1765065600,
+          "label": "Dec 7 - 13, 2025",
+          "value": 79,
+          "hasData": true,
+          "isPartial": false
+        },
+        {
+          "date": "2025-12-14T00:00:00Z",
+          "timestamp": 1765670400,
+          "label": "Dec 14 - 20, 2025",
+          "value": 77,
+          "hasData": true,
+          "isPartial": false
+        },
+        {
+          "date": "2025-12-21T00:00:00Z",
+          "timestamp": 1766275200,
+          "label": "Dec 21 - 27, 2025",
+          "value": 59,
+          "hasData": true,
+          "isPartial": false
+        },
+        {
+          "date": "2025-12-28T00:00:00Z",
+          "timestamp": 1766880000,
+          "label": "Dec 28, 2025 - Jan 3, 2026",
+          "value": 51,
+          "hasData": true,
+          "isPartial": false
+        },
+        {
+          "date": "2026-01-04T00:00:00Z",
+          "timestamp": 1767484800,
+          "label": "Jan 4 - 10, 2026",
+          "value": 60,
+          "hasData": true,
+          "isPartial": false
+        },
+        {
+          "date": "2026-01-11T00:00:00Z",
+          "timestamp": 1768089600,
+          "label": "Jan 11 - 17, 2026",
+          "value": 66,
+          "hasData": true,
+          "isPartial": false
+        },
+        {
+          "date": "2026-01-18T00:00:00Z",
+          "timestamp": 1768694400,
+          "label": "Jan 18 - 24, 2026",
+          "value": 66,
+          "hasData": true,
+          "isPartial": false
+        },
+        {
+          "date": "2026-01-25T00:00:00Z",
+          "timestamp": 1769299200,
+          "label": "Jan 25 - 31, 2026",
+          "value": 59,
+          "hasData": true,
+          "isPartial": false
+        },
+        {
+          "date": "2026-02-01T00:00:00Z",
+          "timestamp": 1769904000,
+          "label": "Feb 1 - 7, 2026",
+          "value": 64,
+          "hasData": true,
+          "isPartial": false
+        },
+        {
+          "date": "2026-02-08T00:00:00Z",
+          "timestamp": 1770508800,
+          "label": "Feb 8 - 14, 2026",
+          "value": 64,
+          "hasData": true,
+          "isPartial": false
+        },
+        {
+          "date": "2026-02-15T00:00:00Z",
+          "timestamp": 1771113600,
+          "label": "Feb 15 - 21, 2026",
+          "value": 63,
+          "hasData": true,
+          "isPartial": false
+        },
+        {
+          "date": "2026-02-22T00:00:00Z",
+          "timestamp": 1771718400,
+          "label": "Feb 22 - 28, 2026",
+          "value": 61,
+          "hasData": true,
+          "isPartial": false
+        },
+        {
+          "date": "2026-03-01T00:00:00Z",
+          "timestamp": 1772323200,
+          "label": "Mar 1 - 7, 2026",
+          "value": 60,
+          "hasData": true,
+          "isPartial": false
+        },
+        {
+          "date": "2026-03-08T00:00:00Z",
+          "timestamp": 1772928000,
+          "label": "Mar 8 - 14, 2026",
+          "value": 60,
+          "hasData": true,
+          "isPartial": false
+        },
+        {
+          "date": "2026-03-15T00:00:00Z",
+          "timestamp": 1773532800,
+          "label": "Mar 15 - 21, 2026",
+          "value": 57,
+          "hasData": true,
+          "isPartial": false
+        },
+        {
+          "date": "2026-03-22T00:00:00Z",
+          "timestamp": 1774137600,
+          "label": "Mar 22 - 28, 2026",
+          "value": 61,
+          "hasData": true,
+          "isPartial": false
+        },
+        {
+          "date": "2026-03-29T00:00:00Z",
+          "timestamp": 1774742400,
+          "label": "Mar 29 - Apr 4, 2026",
+          "value": 63,
+          "hasData": true,
+          "isPartial": false
+        },
+        {
+          "date": "2026-04-05T00:00:00Z",
+          "timestamp": 1775347200,
+          "label": "Apr 5 - 11, 2026",
+          "value": 62,
+          "hasData": true,
+          "isPartial": false
+        },
+        {
+          "date": "2026-04-12T00:00:00Z",
+          "timestamp": 1775952000,
+          "label": "Apr 12 - 18, 2026",
+          "value": 56,
+          "hasData": true,
+          "isPartial": false
+        },
+        {
+          "date": "2026-04-19T00:00:00Z",
+          "timestamp": 1776556800,
+          "label": "Apr 19 - 25, 2026",
+          "value": 58,
+          "hasData": true,
+          "isPartial": false
+        },
+        {
+          "date": "2026-04-26T00:00:00Z",
+          "timestamp": 1777161600,
+          "label": "Apr 26 - May 2, 2026",
+          "value": 63,
+          "hasData": true,
+          "isPartial": false
+        },
+        {
+          "date": "2026-05-03T00:00:00Z",
+          "timestamp": 1777766400,
+          "label": "May 3 - 9, 2026",
+          "value": 58,
+          "hasData": true,
+          "isPartial": false
+        },
+        {
+          "date": "2026-05-10T00:00:00Z",
+          "timestamp": 1778371200,
+          "label": "May 10 - 16, 2026",
+          "value": 57,
+          "hasData": true,
+          "isPartial": false
+        },
+        {
+          "date": "2026-05-17T00:00:00Z",
+          "timestamp": 1778976000,
+          "label": "May 17 - 23, 2026",
+          "value": 60,
+          "hasData": true,
+          "isPartial": false
+        },
+        {
+          "date": "2026-05-24T00:00:00Z",
+          "timestamp": 1779580800,
+          "label": "May 24 - 30, 2026",
+          "value": 64,
+          "hasData": true,
+          "isPartial": false
+        },
+        {
+          "date": "2026-05-31T00:00:00Z",
+          "timestamp": 1780185600,
+          "label": "May 31 - Jun 6, 2026",
+          "value": 58,
+          "hasData": true,
+          "isPartial": false
+        },
+        {
+          "date": "2026-06-07T00:00:00Z",
+          "timestamp": 1780790400,
+          "label": "Jun 7 - 13, 2026",
+          "value": 61,
+          "hasData": true,
+          "isPartial": false
+        },
+        {
+          "date": "2026-06-14T00:00:00Z",
+          "timestamp": 1781395200,
+          "label": "Jun 14 - 20, 2026",
+          "value": 70,
+          "hasData": true,
+          "isPartial": false
+        },
+        {
+          "date": "2026-06-21T00:00:00Z",
+          "timestamp": 1782000000,
+          "label": "Jun 21 - 27, 2026",
+          "value": 74,
+          "hasData": true,
+          "isPartial": false
+        },
+        {
+          "date": "2026-06-28T00:00:00Z",
+          "timestamp": 1782604800,
+          "label": "Jun 28 - Jul 4, 2026",
+          "value": 71,
+          "hasData": true,
+          "isPartial": false
+        },
+        {
+          "date": "2026-07-05T00:00:00Z",
+          "timestamp": 1783209600,
+          "label": "Jul 5 - 11, 2026",
+          "value": 69,
+          "hasData": true,
+          "isPartial": false
+        },
+        {
+          "date": "2026-07-12T00:00:00Z",
+          "timestamp": 1783814400,
+          "label": "Jul 12 - 18, 2026",
+          "value": 65,
+          "hasData": true,
+          "isPartial": false
+        },
+        {
+          "date": "2026-07-19T00:00:00Z",
+          "timestamp": 1784419200,
+          "label": "Jul 19 - 25, 2026",
+          "value": 59,
+          "hasData": true,
+          "isPartial": false
+        },
+        {
+          "date": "2026-07-26T00:00:00Z",
+          "timestamp": 1785024000,
+          "label": "Jul 26 - Aug 1, 2026",
+          "value": 61,
+          "hasData": true,
+          "isPartial": false
+        },
+        {
+          "date": "2026-08-02T00:00:00Z",
+          "timestamp": 1785628800,
+          "label": "Aug 2 - 8, 2026",
+          "value": 62,
+          "hasData": true,
+          "isPartial": false
+        },
+        {
+          "date": "2026-08-09T00:00:00Z",
+          "timestamp": 1786233600,
+          "label": "Aug 9 - 15, 2026",
+          "value": 58,
+          "hasData": true,
+          "isPartial": false
+        },
+        {
+          "date": "2026-08-16T00:00:00Z",
+          "timestamp": 1786838400,
+          "label": "Aug 16 - 22, 2026",
+          "value": 61,
+          "hasData": true,
+          "isPartial": false
+        },
+        {
+          "date": "2026-08-23T00:00:00Z",
+          "timestamp": 1787443200,
+          "label": "Aug 23 - 29, 2026",
+          "value": 64,
+          "hasData": true,
+          "isPartial": false
+        },
+        {
+          "date": "2026-08-30T00:00:00Z",
+          "timestamp": 1788048000,
+          "label": "Aug 30 - Sep 5, 2026",
+          "value": 65,
+          "hasData": true,
+          "isPartial": false
+        },
+        {
+          "date": "2026-09-06T00:00:00Z",
+          "timestamp": 1788652800,
+          "label": "Sep 6 - 12, 2026",
+          "value": 79,
+          "hasData": true,
+          "isPartial": false
+        },
+        {
+          "date": "2026-09-13T00:00:00Z",
+          "timestamp": 1789257600,
+          "label": "Sep 13 - 19, 2026",
+          "value": 74,
+          "hasData": true,
+          "isPartial": false
+        },
+        {
+          "date": "2026-09-20T00:00:00Z",
+          "timestamp": 1789862400,
+          "label": "Sep 20 - 26, 2026",
+          "value": 76,
+          "hasData": true,
+          "isPartial": false
+        },
+        {
+          "date": "2026-09-27T00:00:00Z",
+          "timestamp": 1790467200,
+          "label": "Sep 27 - Oct 3, 2026",
+          "value": 100,
+          "hasData": true,
+          "isPartial": false
+        },
+        {
+          "date": "2026-10-04T00:00:00Z",
+          "timestamp": 1791072000,
+          "label": "Oct 4 - 10, 2026",
+          "value": 97,
+          "hasData": true,
+          "isPartial": false
+        },
+        {
+          "date": "2026-10-11T00:00:00Z",
+          "timestamp": 1791676800,
+          "label": "Oct 11 - 17, 2026",
+          "value": 91,
+          "hasData": true,
+          "isPartial": true
+        }
+      ],
+      "averageInterest": 66.1,
+      "peakInterest": {
+        "value": 100,
+        "date": "2026-09-27T00:00:00Z"
+      },
+      "interestByRegion": []
+    },
+    {
+      "searchTerm": "java",
+      "comparedWith": [
+        "python"
+      ],
+      "geo": "GB",
+      "timeRange": "today 12-m",
+      "category": 0,
+      "searchProperty": "youtube",
+      "warnings": null,
+      "interestOverTime": [
+        {
+          "date": "2025-10-12T00:00:00Z",
+          "timestamp": 1760227200,
+          "label": "Oct 12 - 18, 2025",
+          "value": 46,
+          "hasData": true,
+          "isPartial": false
+        },
+        {
+          "date": "2025-10-19T00:00:00Z",
+          "timestamp": 1760832000,
+          "label": "Oct 19 - 25, 2025",
+          "value": 47,
+          "hasData": true,
+          "isPartial": false
+        },
+        {
+          "date": "2025-10-26T00:00:00Z",
+          "timestamp": 1761436800,
+          "label": "Oct 26 - Nov 1, 2025",
+          "value": 60,
+          "hasData": true,
+          "isPartial": false
+        },
+        {
+          "date": "2025-11-02T00:00:00Z",
+          "timestamp": 1762041600,
+          "label": "Nov 2 - 8, 2025",
+          "value": 51,
+          "hasData": true,
+          "isPartial": false
+        },
+        {
+          "date": "2025-11-09T00:00:00Z",
+          "timestamp": 1762646400,
+          "label": "Nov 9 - 15, 2025",
+          "value": 55,
+          "hasData": true,
+          "isPartial": false
+        },
+        {
+          "date": "2025-11-16T00:00:00Z",
+          "timestamp": 1763251200,
+          "label": "Nov 16 - 22, 2025",
+          "value": 56,
+          "hasData": true,
+          "isPartial": false
+        },
+        {
+          "date": "2025-11-23T00:00:00Z",
+          "timestamp": 1763856000,
+          "label": "Nov 23 - 29, 2025",
+          "value": 52,
+          "hasData": true,
+          "isPartial": false
+        },
+        {
+          "date": "2025-11-30T00:00:00Z",
+          "timestamp": 1764460800,
+          "label": "Nov 30 - Dec 6, 2025",
+          "value": 57,
+          "hasData": true,
+          "isPartial": false
+        },
+        {
+          "date": "2025-12-07T00:00:00Z",
+          "timestamp": 1765065600,
+          "label": "Dec 7 - 13, 2025",
+          "value": 66,
+          "hasData": true,
+          "isPartial": false
+        },
+        {
+          "date": "2025-12-14T00:00:00Z",
+          "timestamp": 1765670400,
+          "label": "Dec 14 - 20, 2025",
+          "value": 62,
+          "hasData": true,
+          "isPartial": false
+        },
+        {
+          "date": "2025-12-21T00:00:00Z",
+          "timestamp": 1766275200,
+          "label": "Dec 21 - 27, 2025",
+          "value": 63,
+          "hasData": true,
+          "isPartial": false
+        },
+        {
+          "date": "2025-12-28T00:00:00Z",
+          "timestamp": 1766880000,
+          "label": "Dec 28, 2025 - Jan 3, 2026",
+          "value": 69,
+          "hasData": true,
+          "isPartial": false
+        },
+        {
+          "date": "2026-01-04T00:00:00Z",
+          "timestamp": 1767484800,
+          "label": "Jan 4 - 10, 2026",
+          "value": 58,
+          "hasData": true,
+          "isPartial": false
+        },
+        {
+          "date": "2026-01-11T00:00:00Z",
+          "timestamp": 1768089600,
+          "label": "Jan 11 - 17, 2026",
+          "value": 62,
+          "hasData": true,
+          "isPartial": false
+        },
+        {
+          "date": "2026-01-18T00:00:00Z",
+          "timestamp": 1768694400,
+          "label": "Jan 18 - 24, 2026",
+          "value": 61,
+          "hasData": true,
+          "isPartial": false
+        },
+        {
+          "date": "2026-01-25T00:00:00Z",
+          "timestamp": 1769299200,
+          "label": "Jan 25 - 31, 2026",
+          "value": 59,
+          "hasData": true,
+          "isPartial": false
+        },
+        {
+          "date": "2026-02-01T00:00:00Z",
+          "timestamp": 1769904000,
+          "label": "Feb 1 - 7, 2026",
+          "value": 64,
+          "hasData": true,
+          "isPartial": false
+        },
+        {
+          "date": "2026-02-08T00:00:00Z",
+          "timestamp": 1770508800,
+          "label": "Feb 8 - 14, 2026",
+          "value": 58,
+          "hasData": true,
+          "isPartial": false
+        },
+        {
+          "date": "2026-02-15T00:00:00Z",
+          "timestamp": 1771113600,
+          "label": "Feb 15 - 21, 2026",
+          "value": 68,
+          "hasData": true,
+          "isPartial": false
+        },
+        {
+          "date": "2026-02-22T00:00:00Z",
+          "timestamp": 1771718400,
+          "label": "Feb 22 - 28, 2026",
+          "value": 61,
+          "hasData": true,
+          "isPartial": false
+        },
+        {
+          "date": "2026-03-01T00:00:00Z",
+          "timestamp": 1772323200,
+          "label": "Mar 1 - 7, 2026",
+          "value": 56,
+          "hasData": true,
+          "isPartial": false
+        },
+        {
+          "date": "2026-03-08T00:00:00Z",
+          "timestamp": 1772928000,
+          "label": "Mar 8 - 14, 2026",
+          "value": 58,
+          "hasData": true,
+          "isPartial": false
+        },
+        {
+          "date": "2026-03-15T00:00:00Z",
+          "timestamp": 1773532800,
+          "label": "Mar 15 - 21, 2026",
+          "value": 56,
+          "hasData": true,
+          "isPartial": false
+        },
+        {
+          "date": "2026-03-22T00:00:00Z",
+          "timestamp": 1774137600,
+          "label": "Mar 22 - 28, 2026",
+          "value": 52,
+          "hasData": true,
+          "isPartial": false
+        },
+        {
+          "date": "2026-03-29T00:00:00Z",
+          "timestamp": 1774742400,
+          "label": "Mar 29 - Apr 4, 2026",
+          "value": 59,
+          "hasData": true,
+          "isPartial": false
+        },
+        {
+          "date": "2026-04-05T00:00:00Z",
+          "timestamp": 1775347200,
+          "label": "Apr 5 - 11, 2026",
+          "value": 58,
+          "hasData": true,
+          "isPartial": false
+        },
+        {
+          "date": "2026-04-12T00:00:00Z",
+          "timestamp": 1775952000,
+          "label": "Apr 12 - 18, 2026",
+          "value": 48,
+          "hasData": true,
+          "isPartial": false
+        },
+        {
+          "date": "2026-04-19T00:00:00Z",
+          "timestamp": 1776556800,
+          "label": "Apr 19 - 25, 2026",
+          "value": 46,
+          "hasData": true,
+          "isPartial": false
+        },
+        {
+          "date": "2026-04-26T00:00:00Z",
+          "timestamp": 1777161600,
+          "label": "Apr 26 - May 2, 2026",
+          "value": 42,
+          "hasData": true,
+          "isPartial": false
+        },
+        {
+          "date": "2026-05-03T00:00:00Z",
+          "timestamp": 1777766400,
+          "label": "May 3 - 9, 2026",
+          "value": 44,
+          "hasData": true,
+          "isPartial": false
+        },
+        {
+          "date": "2026-05-10T00:00:00Z",
+          "timestamp": 1778371200,
+          "label": "May 10 - 16, 2026",
+          "value": 45,
+          "hasData": true,
+          "isPartial": false
+        },
+        {
+          "date": "2026-05-17T00:00:00Z",
+          "timestamp": 1778976000,
+          "label": "May 17 - 23, 2026",
+          "value": 43,
+          "hasData": true,
+          "isPartial": false
+        },
+        {
+          "date": "2026-05-24T00:00:00Z",
+          "timestamp": 1779580800,
+          "label": "May 24 - 30, 2026",
+          "value": 56,
+          "hasData": true,
+          "isPartial": false
+        },
+        {
+          "date": "2026-05-31T00:00:00Z",
+          "timestamp": 1780185600,
+          "label": "May 31 - Jun 6, 2026",
+          "value": 45,
+          "hasData": true,
+          "isPartial": false
+        },
+        {
+          "date": "2026-06-07T00:00:00Z",
+          "timestamp": 1780790400,
+          "label": "Jun 7 - 13, 2026",
+          "value": 49,
+          "hasData": true,
+          "isPartial": false
+        },
+        {
+          "date": "2026-06-14T00:00:00Z",
+          "timestamp": 1781395200,
+          "label": "Jun 14 - 20, 2026",
+          "value": 63,
+          "hasData": true,
+          "isPartial": false
+        },
+        {
+          "date": "2026-06-21T00:00:00Z",
+          "timestamp": 1782000000,
+          "label": "Jun 21 - 27, 2026",
+          "value": 54,
+          "hasData": true,
+          "isPartial": false
+        },
+        {
+          "date": "2026-06-28T00:00:00Z",
+          "timestamp": 1782604800,
+          "label": "Jun 28 - Jul 4, 2026",
+          "value": 51,
+          "hasData": true,
+          "isPartial": false
+        },
+        {
+          "date": "2026-07-05T00:00:00Z",
+          "timestamp": 1783209600,
+          "label": "Jul 5 - 11, 2026",
+          "value": 52,
+          "hasData": true,
+          "isPartial": false
+        },
+        {
+          "date": "2026-07-12T00:00:00Z",
+          "timestamp": 1783814400,
+          "label": "Jul 12 - 18, 2026",
+          "value": 51,
+          "hasData": true,
+          "isPartial": false
+        },
+        {
+          "date": "2026-07-19T00:00:00Z",
+          "timestamp": 1784419200,
+          "label": "Jul 19 - 25, 2026",
+          "value": 59,
+          "hasData": true,
+          "isPartial": false
+        },
+        {
+          "date": "2026-07-26T00:00:00Z",
+          "timestamp": 1785024000,
+          "label": "Jul 26 - Aug 1, 2026",
+          "value": 53,
+          "hasData": true,
+          "isPartial": false
+        },
+        {
+          "date": "2026-08-02T00:00:00Z",
+          "timestamp": 1785628800,
+          "label": "Aug 2 - 8, 2026",
+          "value": 55,
+          "hasData": true,
+          "isPartial": false
+        },
+        {
+          "date": "2026-08-09T00:00:00Z",
+          "timestamp": 1786233600,
+          "label": "Aug 9 - 15, 2026",
+          "value": 56,
+          "hasData": true,
+          "isPartial": false
+        },
+        {
+          "date": "2026-08-16T00:00:00Z",
+          "timestamp": 1786838400,
+          "label": "Aug 16 - 22, 2026",
+          "value": 63,
+          "hasData": true,
+          "isPartial": false
+        },
+        {
+          "date": "2026-08-23T00:00:00Z",
+          "timestamp": 1787443200,
+          "label": "Aug 23 - 29, 2026",
+          "value": 62,
+          "hasData": true,
+          "isPartial": false
+        },
+        {
+          "date": "2026-08-30T00:00:00Z",
+          "timestamp": 1788048000,
+          "label": "Aug 30 - Sep 5, 2026",
+          "value": 65,
+          "hasData": true,
+          "isPartial": false
+        },
+        {
+          "date": "2026-09-06T00:00:00Z",
+          "timestamp": 1788652800,
+          "label": "Sep 6 - 12, 2026",
+          "value": 56,
+          "hasData": true,
+          "isPartial": false
+        },
+        {
+          "date": "2026-09-13T00:00:00Z",
+          "timestamp": 1789257600,
+          "label": "Sep 13 - 19, 2026",
+          "value": 56,
+          "hasData": true,
+          "isPartial": false
+        },
+        {
+          "date": "2026-09-20T00:00:00Z",
+          "timestamp": 1789862400,
+          "label": "Sep 20 - 26, 2026",
+          "value": 60,
+          "hasData": true,
+          "isPartial": false
+        },
+        {
+          "date": "2026-09-27T00:00:00Z",
+          "timestamp": 1790467200,
+          "label": "Sep 27 - Oct 3, 2026",
+          "value": 68,
+          "hasData": true,
+          "isPartial": false
+        },
+        {
+          "date": "2026-10-04T00:00:00Z",
+          "timestamp": 1791072000,
+          "label": "Oct 4 - 10, 2026",
+          "value": 76,
+          "hasData": true,
+          "isPartial": false
+        },
+        {
+          "date": "2026-10-11T00:00:00Z",
+          "timestamp": 1791676800,
+          "label": "Oct 11 - 17, 2026",
+          "value": 71,
+          "hasData": true,
+          "isPartial": true
+        }
+      ],
+      "averageInterest": 56.7,
+      "peakInterest": {
+        "value": 76,
+        "date": "2026-10-04T00:00:00Z"
+      },
+      "interestByRegion": []
+    },
+    {
+      "searchTerm": "coffee",
+      "comparedWith": null,
+      "geo": "GB",
+      "timeRange": "today 12-m",
+      "category": 71,
+      "searchProperty": "web",
+      "warnings": null,
+      "interestOverTime": [
+        {
+          "date": "2025-10-12T00:00:00Z",
+          "timestamp": 1760227200,
+          "label": "Oct 12 - 18, 2025",
+          "value": 81,
+          "hasData": true,
+          "isPartial": false
+        },
+        {
+          "date": "2025-10-19T00:00:00Z",
+          "timestamp": 1760832000,
+          "label": "Oct 19 - 25, 2025",
+          "value": 82,
+          "hasData": true,
+          "isPartial": false
+        },
+        {
+          "date": "2025-10-26T00:00:00Z",
+          "timestamp": 1761436800,
+          "label": "Oct 26 - Nov 1, 2025",
+          "value": 88,
+          "hasData": true,
+          "isPartial": false
+        },
+        {
+          "date": "2025-11-02T00:00:00Z",
+          "timestamp": 1762041600,
+          "label": "Nov 2 - 8, 2025",
+          "value": 82,
+          "hasData": true,
+          "isPartial": false
+        },
+        {
+          "date": "2025-11-09T00:00:00Z",
+          "timestamp": 1762646400,
+          "label": "Nov 9 - 15, 2025",
+          "value": 87,
+          "hasData": true,
+          "isPartial": false
+        },
+        {
+          "date": "2025-11-16T00:00:00Z",
+          "timestamp": 1763251200,
+          "label": "Nov 16 - 22, 2025",
+          "value": 87,
+          "hasData": true,
+          "isPartial": false
+        },
+        {
+          "date": "2025-11-23T00:00:00Z",
+          "timestamp": 1763856000,
+          "label": "Nov 23 - 29, 2025",
+          "value": 88,
+          "hasData": true,
+          "isPartial": false
+        },
+        {
+          "date": "2025-11-30T00:00:00Z",
+          "timestamp": 1764460800,
+          "label": "Nov 30 - Dec 6, 2025",
+          "value": 86,
+          "hasData": true,
+          "isPartial": false
+        },
+        {
+          "date": "2025-12-07T00:00:00Z",
+          "timestamp": 1765065600,
+          "label": "Dec 7 - 13, 2025",
+          "value": 87,
+          "hasData": true,
+          "isPartial": false
+        },
+        {
+          "date": "2025-12-14T00:00:00Z",
+          "timestamp": 1765670400,
+          "label": "Dec 14 - 20, 2025",
+          "value": 91,
+          "hasData": true,
+          "isPartial": false
+        },
+        {
+          "date": "2025-12-21T00:00:00Z",
+          "timestamp": 1766275200,
+          "label": "Dec 21 - 27, 2025",
+          "value": 92,
+          "hasData": true,
+          "isPartial": false
+        },
+        {
+          "date": "2025-12-28T00:00:00Z",
+          "timestamp": 1766880000,
+          "label": "Dec 28, 2025 - Jan 3, 2026",
+          "value": 89,
+          "hasData": true,
+          "isPartial": false
+        },
+        {
+          "date": "2026-01-04T00:00:00Z",
+          "timestamp": 1767484800,
+          "label": "Jan 4 - 10, 2026",
+          "value": 79,
+          "hasData": true,
+          "isPartial": false
+        },
+        {
+          "date": "2026-01-11T00:00:00Z",
+          "timestamp": 1768089600,
+          "label": "Jan 11 - 17, 2026",
+          "value": 81,
+          "hasData": true,
+          "isPartial": false
+        },
+        {
+          "date": "2026-01-18T00:00:00Z",
+          "timestamp": 1768694400,
+          "label": "Jan 18 - 24, 2026",
+          "value": 85,
+          "hasData": true,
+          "isPartial": false
+        },
+        {
+          "date": "2026-01-25T00:00:00Z",
+          "timestamp": 1769299200,
+          "label": "Jan 25 - 31, 2026",
+          "value": 81,
+          "hasData": true,
+          "isPartial": false
+        },
+        {
+          "date": "2026-02-01T00:00:00Z",
+          "timestamp": 1769904000,
+          "label": "Feb 1 - 7, 2026",
+          "value": 80,
+          "hasData": true,
+          "isPartial": false
+        },
+        {
+          "date": "2026-02-08T00:00:00Z",
+          "timestamp": 1770508800,
+          "label": "Feb 8 - 14, 2026",
+          "value": 92,
+          "hasData": true,
+          "isPartial": false
+        },
+        {
+          "date": "2026-02-15T00:00:00Z",
+          "timestamp": 1771113600,
+          "label": "Feb 15 - 21, 2026",
+          "value": 100,
+          "hasData": true,
+          "isPartial": false
+        },
+        {
+          "date": "2026-02-22T00:00:00Z",
+          "timestamp": 1771718400,
+          "label": "Feb 22 - 28, 2026",
+          "value": 91,
+          "hasData": true,
+          "isPartial": false
+        },
+        {
+          "date": "2026-03-01T00:00:00Z",
+          "timestamp": 1772323200,
+          "label": "Mar 1 - 7, 2026",
+          "value": 74,
+          "hasData": true,
+          "isPartial": false
+        },
+        {
+          "date": "2026-03-08T00:00:00Z",
+          "timestamp": 1772928000,
+          "label": "Mar 8 - 14, 2026",
+          "value": 82,
+          "hasData": true,
+          "isPartial": false
+        },
+        {
+          "date": "2026-03-15T00:00:00Z",
+          "timestamp": 1773532800,
+          "label": "Mar 15 - 21, 2026",
+          "value": 80,
+          "hasData": true,
+          "isPartial": false
+        },
+        {
+          "date": "2026-03-22T00:00:00Z",
+          "timestamp": 1774137600,
+          "label": "Mar 22 - 28, 2026",
+          "value": 82,
+          "hasData": true,
+          "isPartial": false
+        },
+        {
+          "date": "2026-03-29T00:00:00Z",
+          "timestamp": 1774742400,
+          "label": "Mar 29 - Apr 4, 2026",
+          "value": 82,
+          "hasData": true,
+          "isPartial": false
+        },
+        {
+          "date": "2026-04-05T00:00:00Z",
+          "timestamp": 1775347200,
+          "label": "Apr 5 - 11, 2026",
+          "value": 84,
+          "hasData": true,
+          "isPartial": false
+        },
+        {
+          "date": "2026-04-12T00:00:00Z",
+          "timestamp": 1775952000,
+          "label": "Apr 12 - 18, 2026",
+          "value": 82,
+          "hasData": true,
+          "isPartial": false
+        },
+        {
+          "date": "2026-04-19T00:00:00Z",
+          "timestamp": 1776556800,
+          "label": "Apr 19 - 25, 2026",
+          "value": 91,
+          "hasData": true,
+          "isPartial": false
+        },
+        {
+          "date": "2026-04-26T00:00:00Z",
+          "timestamp": 1777161600,
+          "label": "Apr 26 - May 2, 2026",
+          "value": 77,
+          "hasData": true,
+          "isPartial": false
+        },
+        {
+          "date": "2026-05-03T00:00:00Z",
+          "timestamp": 1777766400,
+          "label": "May 3 - 9, 2026",
+          "value": 79,
+          "hasData": true,
+          "isPartial": false
+        },
+        {
+          "date": "2026-05-10T00:00:00Z",
+          "timestamp": 1778371200,
+          "label": "May 10 - 16, 2026",
+          "value": 80,
+          "hasData": true,
+          "isPartial": false
+        },
+        {
+          "date": "2026-05-17T00:00:00Z",
+          "timestamp": 1778976000,
+          "label": "May 17 - 23, 2026",
+          "value": 82,
+          "hasData": true,
+          "isPartial": false
+        },
+        {
+          "date": "2026-05-24T00:00:00Z",
+          "timestamp": 1779580800,
+          "label": "May 24 - 30, 2026",
+          "value": 81,
+          "hasData": true,
+          "isPartial": false
+        },
+        {
+          "date": "2026-05-31T00:00:00Z",
+          "timestamp": 1780185600,
+          "label": "May 31 - Jun 6, 2026",
+          "value": 78,
+          "hasData": true,
+          "isPartial": false
+        },
+        {
+          "date": "2026-06-07T00:00:00Z",
+          "timestamp": 1780790400,
+          "label": "Jun 7 - 13, 2026",
+          "value": 81,
+          "hasData": true,
+          "isPartial": false
+        },
+        {
+          "date": "2026-06-14T00:00:00Z",
+          "timestamp": 1781395200,
+          "label": "Jun 14 - 20, 2026",
+          "value": 77,
+          "hasData": true,
+          "isPartial": false
+        },
+        {
+          "date": "2026-06-21T00:00:00Z",
+          "timestamp": 1782000000,
+          "label": "Jun 21 - 27, 2026",
+          "value": 75,
+          "hasData": true,
+          "isPartial": false
+        },
+        {
+          "date": "2026-06-28T00:00:00Z",
+          "timestamp": 1782604800,
+          "label": "Jun 28 - Jul 4, 2026",
+          "value": 75,
+          "hasData": true,
+          "isPartial": false
+        },
+        {
+          "date": "2026-07-05T00:00:00Z",
+          "timestamp": 1783209600,
+          "label": "Jul 5 - 11, 2026",
+          "value": 82,
+          "hasData": true,
+          "isPartial": false
+        },
+        {
+          "date": "2026-07-12T00:00:00Z",
+          "timestamp": 1783814400,
+          "label": "Jul 12 - 18, 2026",
+          "value": 87,
+          "hasData": true,
+          "isPartial": false
+        },
+        {
+          "date": "2026-07-19T00:00:00Z",
+          "timestamp": 1784419200,
+          "label": "Jul 19 - 25, 2026",
+          "value": 83,
+          "hasData": true,
+          "isPartial": false
+        },
+        {
+          "date": "2026-07-26T00:00:00Z",
+          "timestamp": 1785024000,
+          "label": "Jul 26 - Aug 1, 2026",
+          "value": 88,
+          "hasData": true,
+          "isPartial": false
+        },
+        {
+          "date": "2026-08-02T00:00:00Z",
+          "timestamp": 1785628800,
+          "label": "Aug 2 - 8, 2026",
+          "value": 90,
+          "hasData": true,
+          "isPartial": false
+        },
+        {
+          "date": "2026-08-09T00:00:00Z",
+          "timestamp": 1786233600,
+          "label": "Aug 9 - 15, 2026",
+          "value": 85,
+          "hasData": true,
+          "isPartial": false
+        },
+        {
+          "date": "2026-08-16T00:00:00Z",
+          "timestamp": 1786838400,
+          "label": "Aug 16 - 22, 2026",
+          "value": 86,
+          "hasData": true,
+          "isPartial": false
+        },
+        {
+          "date": "2026-08-23T00:00:00Z",
+          "timestamp": 1787443200,
+          "label": "Aug 23 - 29, 2026",
+          "value": 88,
+          "hasData": true,
+          "isPartial": false
+        },
+        {
+          "date": "2026-08-30T00:00:00Z",
+          "timestamp": 1788048000,
+          "label": "Aug 30 - Sep 5, 2026",
+          "value": 86,
+          "hasData": true,
+          "isPartial": false
+        },
+        {
+          "date": "2026-09-06T00:00:00Z",
+          "timestamp": 1788652800,
+          "label": "Sep 6 - 12, 2026",
+          "value": 83,
+          "hasData": true,
+          "isPartial": false
+        },
+        {
+          "date": "2026-09-13T00:00:00Z",
+          "timestamp": 1789257600,
+          "label": "Sep 13 - 19, 2026",
+          "value": 84,
+          "hasData": true,
+          "isPartial": false
+        },
+        {
+          "date": "2026-09-20T00:00:00Z",
+          "timestamp": 1789862400,
+          "label": "Sep 20 - 26, 2026",
+          "value": 97,
+          "hasData": true,
+          "isPartial": false
+        },
+        {
+          "date": "2026-09-27T00:00:00Z",
+          "timestamp": 1790467200,
+          "label": "Sep 27 - Oct 3, 2026",
+          "value": 89,
+          "hasData": true,
+          "isPartial": false
+        },
+        {
+          "date": "2026-10-04T00:00:00Z",
+          "timestamp": 1791072000,
+          "label": "Oct 4 - 10, 2026",
+          "value": 91,
+          "hasData": true,
+          "isPartial": false
+        },
+        {
+          "date": "2026-10-11T00:00:00Z",
+          "timestamp": 1791676800,
+          "label": "Oct 11 - 17, 2026",
+          "value": 99,
+          "hasData": true,
+          "isPartial": true
+        }
+      ],
+      "averageInterest": 84.7,
+      "peakInterest": {
+        "value": 100,
+        "date": "2026-02-15T00:00:00Z"
+      },
+      "interestByRegion": [
+        {
+          "geoCode": null,
+          "geoName": "Crumlin",
+          "value": 100
+        },
+        {
+          "geoCode": null,
+          "geoName": "Edinburgh",
+          "value": 94
+        },
+        {
+          "geoCode": null,
+          "geoName": "Belfast",
+          "value": 89
+        },
+        {
+          "geoCode": null,
+          "geoName": "South Cave",
+          "value": 88
+        },
+        {
+          "geoCode": null,
+          "geoName": "Bathford",
+          "value": 84
+        },
+        {
+          "geoCode": null,
+          "geoName": "Cardiff",
+          "value": 83
+        },
+        {
+          "geoCode": null,
+          "geoName": "Wick",
+          "value": 83
+        },
+        {
+          "geoCode": null,
+          "geoName": "Tewkesbury",
+          "value": 82
+        },
+        {
+          "geoCode": null,
+          "geoName": "London",
+          "value": 81
+        },
+        {
+          "geoCode": null,
+          "geoName": "Brighton",
+          "value": 80
+        },
+        {
+          "geoCode": null,
+          "geoName": "Moira",
+          "value": 79
+        },
+        {
+          "geoCode": null,
+          "geoName": "Salford",
+          "value": 77
+        },
+        {
+          "geoCode": null,
+          "geoName": "Liverpool",
+          "value": 75
+        }
+      ]
+    },
+    {
+      "trend": "falcons vs ravens",
+      "geo": "US",
+      "startedAt": "2026-10-11T15:20:00Z",
+      "endedAt": null,
+      "isActive": true,
+      "searchVolume": 500000,
+      "searchVolumeLabel": "500K+",
+      "increasePercent": 1000,
+      "categoryIds": [
+        17
+      ],
+      "categories": [
+        "Sports"
+      ],
+      "relatedSearches": [
+        "tyler huntley",
+        "tua tagovailoa",
+        "michael penix jr",
+        "ravens falcons",
+        "kyle hamilton",
+        "falcons ravens",
+        "penix",
+        "penix injury",
+        "michael penix",
+        "baltimore ravens vs atlanta falcons",
+        "ravens",
+        "michael penix jr injury",
+        "derrick henry",
+        "baltimore ravens",
+        "falcons game",
+        "atlanta falcons vs baltimore ravens",
+        "baltimore ravens vs atlanta falcons match player stats",
+        "ravens game",
+        "lamar jackson",
+        "ravens score",
+        "falcons",
+        "michael penix jr.",
+        "devontez walker",
+        "atlanta falcons",
+        "ravens qb",
+        "falcons score",
+        "snoop huntley",
+        "penix jr",
+        "jesse minter",
+        "atlanta falcons vs baltimore ravens match player stats",
+        "michael penix injury",
+        "rashod bateman",
+        "huntley ravens",
+        "falcons qb",
+        "ravens - falcons",
+        "baltimore",
+        "did michael penix get hurt",
+        "did penix get hurt",
+        "ravens backup qb",
+        "did the ravens win last night",
+        "kevin stefanski",
+        "who won the ravens game",
+        "ravens quarterback",
+        "sunday night football score",
+        "ravens football",
+        "ravens coach",
+        "sunday football games",
+        "who won sunday night football",
+        "tyler loop",
+        "where to watch baltimore ravens vs atlanta falcons",
+        "snf score",
+        "tagovailoa",
+        "ins",
+        "roger rosengarten",
+        "falcons record",
+        "atlanta falcons score",
+        "atlanta falcons qb",
+        "ravens huntley",
+        "tavius robinson",
+        "ravens score today",
+        "penix jr injury",
+        "ravens run defense",
+        "falcons football",
+        "atlanta vs ravens",
+        "ravens.",
+        "kyle pitts sr",
+        "hamilton ravens",
+        "micheal penix",
+        "ravens and falcons",
+        "where is lamar jackson",
+        "what happened to michael penix jr",
+        "falcons head coach",
+        "huntley ravens qb",
+        "penix pointing at tua",
+        "what happened to penix",
+        "falcons quarterback",
+        "baltimore ravens qb",
+        "who scored for the falcons",
+        "falcons stats",
+        "baltimore ravens quarterback",
+        "ravens vs atlanta",
+        "huntley qb ravens",
+        "ravens last game"
+      ],
+      "news": [
+        {
+          "title": "QB Tyler Huntley leads Ravens to comeback OT win vs. Falcons",
+          "url": "https://www.espn.com/nfl/story/_/id/50164378/backup-qb-tyler-huntley-leads-ravens-comeback-ot-win-vs-falcons",
+          "source": "ESPN"
+        },
+        {
+          "title": "Falcons vs. Ravens recap: Ghosts converge on Atlanta in an overtime loss",
+          "url": "https://www.thefalcoholic.com/atlanta-falcons-scores-results/97161/falcons-vs-ravens-recap-back-on-the-bumpy-road-again-michael-penix-jr-drake-london-jake-matthews",
+          "source": "The Falcoholic"
+        },
+        {
+          "title": "Sweet Home Atlanta: Kyle Hamilton Seals Ravens\u2019 Overtime Win",
+          "url": "https://www.baltimoreravens.com/news/kyle-hamilton-ravens-falcons-overtime-win-interception-2026",
+          "source": "Baltimore Ravens"
+        }
+      ],
+      "trendingWindowHours": 24
+    },
+    {
+      "trend": "mike evans",
+      "geo": "US",
+      "startedAt": "2026-10-11T23:00:00Z",
+      "endedAt": null,
+      "isActive": true,
+      "searchVolume": 500000,
+      "searchVolumeLabel": "500K+",
+      "increasePercent": 1000,
+      "categoryIds": [
+        17
+      ],
+      "categories": [
+        "Sports"
+      ],
+      "relatedSearches": [
+        "san francisco 49ers seattle seahawks",
+        "seahawks",
+        "49ers vs seahawks match player stats",
+        "49ers",
+        "49ers vs seahawks where to watch",
+        "niners vs seahawks",
+        "fred warner",
+        "seattle seahawks",
+        "brock purdy",
+        "49ers schedule",
+        "san francisco 49ers",
+        "49ers - seahawks",
+        "where to watch 49ers vs seahawks",
+        "seahawks game",
+        "49ers seahawks",
+        "seahawks score",
+        "renardo green",
+        "niners",
+        "seattle",
+        "seahawks vs 49ers match player stats",
+        "san francisco",
+        "seahawks 49ers",
+        "49",
+        "niners game",
+        "seattle vs 49ers",
+        "niner game",
+        "49er",
+        "nfc west",
+        "where to watch seahawks vs 49ers",
+        "49ers score",
+        "49ers vs seahawks stats",
+        "niners score",
+        "49er game",
+        "sf 49ers",
+        "49ers schedule 2026",
+        "kyle shanahan",
+        "49ers vs",
+        "niners seahawks",
+        "seahawk",
+        "eddy pineiro",
+        "49er score",
+        "seahawks vs 49ers 2026",
+        "mike evans 49ers",
+        "lumen field",
+        "who won the super bowl 2026",
+        "sf vs seattle",
+        "sanfrancisco 49ers",
+        "purdy",
+        "49ers news",
+        "49ers vs seahawks predictions",
+        "seahawks score today",
+        "san francisco 49ers schedule",
+        "49ers standings",
+        "49er game today",
+        "where can i watch the 49ers game",
+        "seahawks qb",
+        "49ers score today",
+        "seahawks vs 49ers prediction",
+        "49ers.",
+        "49 ers",
+        "49ers schedule today",
+        "where to watch seahawks game",
+        "seattle game",
+        "who won the 49ers game",
+        "how to watch 49ers game today",
+        "where can i watch the seahawks game",
+        "san francisco vs seattle",
+        "where to watch the seahawks game",
+        "malik mustapha",
+        "seahawks niners",
+        "what channel is the 49ers game on",
+        "did the 49ers win today",
+        "what channel is the seahawks game on",
+        "seahawks vs niners",
+        "where to watch the 49ers game today",
+        "seahawks vs 49ers stats",
+        "where to watch seahawks",
+        "49ers game where to watch"
+      ],
+      "news": [
+        {
+          "title": "Mike Evans stars in 49ers' win -- 'Exactly why he's here'",
+          "url": "https://www.espn.com/nfl/story/_/id/50163672/mike-evans-stars-49ers-win-exactly-why-here",
+          "source": "ESPN"
+        },
+        {
+          "title": "Fred Warner on Mike Evans: Unreal how he shows up every week and dominates",
+          "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/fred-warner-on-mike-evans-unreal-how-he-shows-up-every-week-and-dominates",
+          "source": "NBC Sports"
+        },
+        {
+          "title": "3 takeaways from the Seahawks' 32-29 loss to the 49ers",
+          "url": "https://www.king5.com/article/sports/3-takeaways-from-the-seahawks-32-29-loss-to-the-49ers/281-dda00300-0e59-45a7-93b8-e4d5d0cbd131",
+          "source": "KING5.com"
+        }
+      ],
+      "trendingWindowHours": 24
+    },
+    {
+      "trend": "bears",
+      "geo": "US",
+      "startedAt": "2026-10-11T17:20:00Z",
+      "endedAt": "2026-10-11T21:10:00Z",
+      "isActive": false,
+      "searchVolume": 500000,
+      "searchVolumeLabel": "500K+",
+      "increasePercent": 1000,
+      "categoryIds": [
+        17
+      ],
+      "categories": [
+        "Sports"
+      ],
+      "relatedSearches": [
+        "packers",
+        "bears game",
+        "chicago bears",
+        "green bay packers",
+        "packers game",
+        "jordan love",
+        "packers bears",
+        "packer game",
+        "ben johnson",
+        "chicago bears vs green bay packers match player stats",
+        "greenbay",
+        "green bay",
+        "bears - packers",
+        "chicago bears vs green bay packers",
+        "where to watch chicago bears vs green bay packers",
+        "bears schedule",
+        "greenbay packers game",
+        "bears vs packers 2026",
+        "bears football",
+        "green bay packers vs chicago bears match player stats",
+        "green bay vs bears",
+        "green bay packers vs chicago bears",
+        "jordan love stats",
+        "the bears",
+        "bears packers score",
+        "bears and packers",
+        "where to watch green bay packers vs chicago bears",
+        "chicago bears game",
+        "bears-packers game analysis",
+        "packer game sunday",
+        "green bay game",
+        "green bay packers score",
+        "bears vs packers score",
+        "packers standings",
+        "chicago bears schedule",
+        "bears.",
+        "green bay score",
+        "dillon thieneman",
+        "packers.",
+        "lambeau field",
+        "chicago bears vs green bay packers stats",
+        "packer score today"
+      ],
+      "news": [
+        {
+          "title": "Are the Pack back? Green Bay, Jordan Love erupt in dominant win vs. Bears behind retooled offensive line",
+          "url": "https://www.cbssports.com/nfl/news/are-the-pack-back-green-bay-jordan-love-erupt-dominant-win-bears/",
+          "source": "CBS Sports"
+        },
+        {
+          "title": "Chicago Bears\u2019 defensive hot streak ends with a thud. Did Packers expose serious flaws?",
+          "url": "https://www.nytimes.com/athletic/7682329/2026/10/12/bears-defense-blowout-packers/",
+          "source": "The New York Times"
+        },
+        {
+          "title": "Packers 31-7 Bears (Oct 11, 2026) Game Recap",
+          "url": "https://www.espn.com/nfl/recap/_/gameId/401872990",
+          "source": "ESPN"
+        }
+      ],
+      "trendingWindowHours": 24
+    }
+  ]
+}
