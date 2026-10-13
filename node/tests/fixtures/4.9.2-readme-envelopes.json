@@ -1,0 +1,93 @@
+{
+  "source": "pat310/google-trends-api README at 7d7f0ea669dddc579d128272430fb1c41e5bd298 (package version 4.9.2); Explore first points copied verbatim; trending typed pseudocode represented by type-placeholder strings/objects, NOT captured data. Daily article/detail fields are not specified by this reference.",
+  "responses": {
+    "interestOverTime": {
+      "default": {
+        "timelineData": [
+          {
+            "time": "1072915200",
+            "formattedTime": "Jan 2004",
+            "formattedAxisTime": "Jan 1, 2004",
+            "value": [
+              26
+            ],
+            "formattedValue": [
+              "26"
+            ]
+          }
+        ],
+        "averages": []
+      }
+    },
+    "interestByRegion": {
+      "default": {
+        "geoMapData": [
+          {
+            "geoCode": "807",
+            "geoName": "San Francisco-Oakland-San Jose CA",
+            "value": [
+              100
+            ],
+            "formattedValue": [
+              "100"
+            ],
+            "maxValueIndex": 0
+          }
+        ]
+      }
+    },
+    "relatedQueries": {
+      "default": {
+        "rankedList": [
+          {
+            "rankedKeyword": [
+              {
+                "query": "dog show 2016",
+                "value": 100,
+                "formattedValue": "100",
+                "link": "/"
+              }
+            ]
+          },
+          {
+            "rankedKeyword": [
+              {
+                "query": "dog show 2016",
+                "value": 836500,
+                "formattedValue": "Breakout",
+                "link": "/"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "dailyTrends": {
+      "default": {
+        "trendingSearchesDays": [
+          {
+            "date": "String",
+            "formattedDate": "String",
+            "trendingSearches": [
+              {}
+            ]
+          }
+        ],
+        "endDateForNextRequest": "String",
+        "rssFeedPageUrl": "String"
+      }
+    },
+    "realTimeTrends": {
+      "featuredStoryIds": [],
+      "trendingStoryIds": [],
+      "storySummaries": {
+        "featuredStories": [],
+        "trendingStories": [
+          {}
+        ]
+      },
+      "date": "Date-String",
+      "hideAllImages": true
+    }
+  }
+}

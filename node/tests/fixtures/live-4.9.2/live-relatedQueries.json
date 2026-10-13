@@ -1,0 +1,355 @@
+{
+  "source": "google-trends-api@4.9.2 live public request (board capture)",
+  "capturedAt": "2026-10-13T14:34:10.957Z",
+  "method": "relatedQueries",
+  "options": {
+    "keyword": "python",
+    "geo": "US",
+    "startTime": "2026-09-01T00:00:00.000Z",
+    "endTime": "2026-10-01T00:00:00.000Z",
+    "hl": "en-US",
+    "category": 0,
+    "timezone": -480,
+    "property": "",
+    "time": "2026-09-1 2026-10-1"
+  },
+  "response": {
+    "default": {
+      "rankedList": [
+        {
+          "rankedKeyword": [
+            {
+              "query": "python code",
+              "value": 100,
+              "formattedValue": "100",
+              "hasData": true,
+              "link": "/trends/explore?q=python+code&date=2026-09-1+2026-10-1&geo=US"
+            },
+            {
+              "query": "ball python",
+              "value": 82,
+              "formattedValue": "82",
+              "hasData": true,
+              "link": "/trends/explore?q=ball+python&date=2026-09-1+2026-10-1&geo=US"
+            },
+            {
+              "query": "python tutorial",
+              "value": 76,
+              "formattedValue": "76",
+              "hasData": true,
+              "link": "/trends/explore?q=python+tutorial&date=2026-09-1+2026-10-1&geo=US"
+            },
+            {
+              "query": "monty python",
+              "value": 52,
+              "formattedValue": "52",
+              "hasData": true,
+              "link": "/trends/explore?q=monty+python&date=2026-09-1+2026-10-1&geo=US"
+            },
+            {
+              "query": "python language",
+              "value": 28,
+              "formattedValue": "28",
+              "hasData": true,
+              "link": "/trends/explore?q=python+language&date=2026-09-1+2026-10-1&geo=US"
+            },
+            {
+              "query": "python download",
+              "value": 26,
+              "formattedValue": "26",
+              "hasData": true,
+              "link": "/trends/explore?q=python+download&date=2026-09-1+2026-10-1&geo=US"
+            },
+            {
+              "query": "python snake",
+              "value": 24,
+              "formattedValue": "24",
+              "hasData": true,
+              "link": "/trends/explore?q=python+snake&date=2026-09-1+2026-10-1&geo=US"
+            },
+            {
+              "query": "python science",
+              "value": 21,
+              "formattedValue": "21",
+              "hasData": true,
+              "link": "/trends/explore?q=python+science&date=2026-09-1+2026-10-1&geo=US"
+            },
+            {
+              "query": "python programming tutorial",
+              "value": 20,
+              "formattedValue": "20",
+              "hasData": true,
+              "link": "/trends/explore?q=python+programming+tutorial&date=2026-09-1+2026-10-1&geo=US"
+            },
+            {
+              "query": "burmese python",
+              "value": 20,
+              "formattedValue": "20",
+              "hasData": true,
+              "link": "/trends/explore?q=burmese+python&date=2026-09-1+2026-10-1&geo=US"
+            },
+            {
+              "query": "python music",
+              "value": 20,
+              "formattedValue": "20",
+              "hasData": true,
+              "link": "/trends/explore?q=python+music&date=2026-09-1+2026-10-1&geo=US"
+            },
+            {
+              "query": "python map",
+              "value": 19,
+              "formattedValue": "19",
+              "hasData": true,
+              "link": "/trends/explore?q=python+map&date=2026-09-1+2026-10-1&geo=US"
+            },
+            {
+              "query": "bike python",
+              "value": 17,
+              "formattedValue": "17",
+              "hasData": true,
+              "link": "/trends/explore?q=bike+python&date=2026-09-1+2026-10-1&geo=US"
+            },
+            {
+              "query": "python style",
+              "value": 16,
+              "formattedValue": "16",
+              "hasData": true,
+              "link": "/trends/explore?q=python+style&date=2026-09-1+2026-10-1&geo=US"
+            },
+            {
+              "query": "colt python",
+              "value": 14,
+              "formattedValue": "14",
+              "hasData": true,
+              "link": "/trends/explore?q=colt+python&date=2026-09-1+2026-10-1&geo=US"
+            },
+            {
+              "query": "monty python and the holy grail",
+              "value": 13,
+              "formattedValue": "13",
+              "hasData": true,
+              "link": "/trends/explore?q=monty+python+and+the+holy+grail&date=2026-09-1+2026-10-1&geo=US"
+            },
+            {
+              "query": "python resume",
+              "value": 13,
+              "formattedValue": "13",
+              "hasData": true,
+              "link": "/trends/explore?q=python+resume&date=2026-09-1+2026-10-1&geo=US"
+            },
+            {
+              "query": "python planet",
+              "value": 13,
+              "formattedValue": "13",
+              "hasData": true,
+              "link": "/trends/explore?q=python+planet&date=2026-09-1+2026-10-1&geo=US"
+            },
+            {
+              "query": "python homework",
+              "value": 12,
+              "formattedValue": "12",
+              "hasData": true,
+              "link": "/trends/explore?q=python+homework&date=2026-09-1+2026-10-1&geo=US"
+            },
+            {
+              "query": "python compiler",
+              "value": 8,
+              "formattedValue": "8",
+              "hasData": true,
+              "link": "/trends/explore?q=python+compiler&date=2026-09-1+2026-10-1&geo=US"
+            },
+            {
+              "query": "reticulated python",
+              "value": 7,
+              "formattedValue": "7",
+              "hasData": true,
+              "link": "/trends/explore?q=reticulated+python&date=2026-09-1+2026-10-1&geo=US"
+            },
+            {
+              "query": "zen of python",
+              "value": 7,
+              "formattedValue": "7",
+              "hasData": true,
+              "link": "/trends/explore?q=zen+of+python&date=2026-09-1+2026-10-1&geo=US"
+            },
+            {
+              "query": "tom rahill everglades python hunt",
+              "value": 3,
+              "formattedValue": "3",
+              "hasData": true,
+              "link": "/trends/explore?q=tom+rahill+everglades+python+hunt&date=2026-09-1+2026-10-1&geo=US"
+            },
+            {
+              "query": "healthy meal prep",
+              "value": 2,
+              "formattedValue": "2",
+              "hasData": true,
+              "link": "/trends/explore?q=healthy+meal+prep&date=2026-09-1+2026-10-1&geo=US"
+            },
+            {
+              "query": "digital marketing course",
+              "value": 2,
+              "formattedValue": "2",
+              "hasData": true,
+              "link": "/trends/explore?q=digital+marketing+course&date=2026-09-1+2026-10-1&geo=US"
+            }
+          ]
+        },
+        {
+          "rankedKeyword": [
+            {
+              "query": "tom rahill everglades python hunt",
+              "value": 14500,
+              "formattedValue": "Breakout",
+              "link": "/trends/explore?q=tom+rahill+everglades+python+hunt&date=2026-09-1+2026-10-1&geo=US"
+            },
+            {
+              "query": "healthy meal prep",
+              "value": 12450,
+              "formattedValue": "Breakout",
+              "link": "/trends/explore?q=healthy+meal+prep&date=2026-09-1+2026-10-1&geo=US"
+            },
+            {
+              "query": "digital marketing course",
+              "value": 11850,
+              "formattedValue": "Breakout",
+              "link": "/trends/explore?q=digital+marketing+course&date=2026-09-1+2026-10-1&geo=US"
+            },
+            {
+              "query": "electric cars comparison",
+              "value": 10700,
+              "formattedValue": "Breakout",
+              "link": "/trends/explore?q=electric+cars+comparison&date=2026-09-1+2026-10-1&geo=US"
+            },
+            {
+              "query": "best vpn service",
+              "value": 10450,
+              "formattedValue": "Breakout",
+              "link": "/trends/explore?q=best+vpn+service&date=2026-09-1+2026-10-1&geo=US"
+            },
+            {
+              "query": "fitness tracker review",
+              "value": 10300,
+              "formattedValue": "Breakout",
+              "link": "/trends/explore?q=fitness+tracker+review&date=2026-09-1+2026-10-1&geo=US"
+            },
+            {
+              "query": "air purifier review",
+              "value": 10250,
+              "formattedValue": "Breakout",
+              "link": "/trends/explore?q=air+purifier+review&date=2026-09-1+2026-10-1&geo=US"
+            },
+            {
+              "query": "travel insurance comparison",
+              "value": 10000,
+              "formattedValue": "Breakout",
+              "link": "/trends/explore?q=travel+insurance+comparison&date=2026-09-1+2026-10-1&geo=US"
+            },
+            {
+              "query": "web hosting comparison",
+              "value": 9950,
+              "formattedValue": "Breakout",
+              "link": "/trends/explore?q=web+hosting+comparison&date=2026-09-1+2026-10-1&geo=US"
+            },
+            {
+              "query": "netflix new releases",
+              "value": 9900,
+              "formattedValue": "Breakout",
+              "link": "/trends/explore?q=netflix+new+releases&date=2026-09-1+2026-10-1&geo=US"
+            },
+            {
+              "query": "protein powder review",
+              "value": 9200,
+              "formattedValue": "Breakout",
+              "link": "/trends/explore?q=protein+powder+review&date=2026-09-1+2026-10-1&geo=US"
+            },
+            {
+              "query": "cheap flights new york",
+              "value": 9000,
+              "formattedValue": "Breakout",
+              "link": "/trends/explore?q=cheap+flights+new+york&date=2026-09-1+2026-10-1&geo=US"
+            },
+            {
+              "query": "electric bike review",
+              "value": 8750,
+              "formattedValue": "Breakout",
+              "link": "/trends/explore?q=electric+bike+review&date=2026-09-1+2026-10-1&geo=US"
+            },
+            {
+              "query": "home security camera",
+              "value": 8550,
+              "formattedValue": "Breakout",
+              "link": "/trends/explore?q=home+security+camera&date=2026-09-1+2026-10-1&geo=US"
+            },
+            {
+              "query": "tax software comparison",
+              "value": 8500,
+              "formattedValue": "Breakout",
+              "link": "/trends/explore?q=tax+software+comparison&date=2026-09-1+2026-10-1&geo=US"
+            },
+            {
+              "query": "moving company quotes",
+              "value": 8400,
+              "formattedValue": "Breakout",
+              "link": "/trends/explore?q=moving+company+quotes&date=2026-09-1+2026-10-1&geo=US"
+            },
+            {
+              "query": "baby stroller review",
+              "value": 8050,
+              "formattedValue": "Breakout",
+              "link": "/trends/explore?q=baby+stroller+review&date=2026-09-1+2026-10-1&geo=US"
+            },
+            {
+              "query": "online banking review",
+              "value": 7850,
+              "formattedValue": "Breakout",
+              "link": "/trends/explore?q=online+banking+review&date=2026-09-1+2026-10-1&geo=US"
+            },
+            {
+              "query": "coworking space near me",
+              "value": 7450,
+              "formattedValue": "Breakout",
+              "link": "/trends/explore?q=coworking+space+near+me&date=2026-09-1+2026-10-1&geo=US"
+            },
+            {
+              "query": "best headphones wireless",
+              "value": 7400,
+              "formattedValue": "Breakout",
+              "link": "/trends/explore?q=best+headphones+wireless&date=2026-09-1+2026-10-1&geo=US"
+            },
+            {
+              "query": "meal delivery service",
+              "value": 7350,
+              "formattedValue": "Breakout",
+              "link": "/trends/explore?q=meal+delivery+service&date=2026-09-1+2026-10-1&geo=US"
+            },
+            {
+              "query": "language learning app",
+              "value": 7300,
+              "formattedValue": "Breakout",
+              "link": "/trends/explore?q=language+learning+app&date=2026-09-1+2026-10-1&geo=US"
+            },
+            {
+              "query": "organic skincare products",
+              "value": 7050,
+              "formattedValue": "Breakout",
+              "link": "/trends/explore?q=organic+skincare+products&date=2026-09-1+2026-10-1&geo=US"
+            },
+            {
+              "query": "diy home renovation",
+              "value": 6600,
+              "formattedValue": "Breakout",
+              "link": "/trends/explore?q=diy+home+renovation&date=2026-09-1+2026-10-1&geo=US"
+            },
+            {
+              "query": "python tutorial",
+              "value": 100,
+              "formattedValue": "+100%",
+              "link": "/trends/explore?q=python+tutorial&date=2026-09-1+2026-10-1&geo=US"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

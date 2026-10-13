@@ -9,7 +9,8 @@
   },
   "scripts": {
     "start": "node trends-to-csv.mjs",
-    "trending": "node trending-to-csv.mjs"
+    "trending": "node trending-to-csv.mjs",
+    "test": "node --test tests/*.test.mjs"
   },
   "dependencies": {
     "apify-client": "^2.25.0"

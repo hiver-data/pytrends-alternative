@@ -104,6 +104,50 @@ Measured with pandas 3.0.6: 25 passed with pytrends; 17 passed and 8 reference-o
 | `related_queries()` | `relatedQueries.top` and `relatedQueries.rising` |
 | `trending_searches(pn=...)` | `trendingGeos` (Trending Now by country) |
 
+## From google-trends-api (npm): one-line import swap
+
+Copy `node/google-trends-api-compat.mjs` beside your ESM script (or adjust the relative path), install `node/package.json` dependencies, and set `APIFY_TOKEN`. google-trends-api is not required:
+
+```js
+// import googleTrends from 'google-trends-api';
+import googleTrends from './google-trends-api-compat.mjs';
+
+const options = { keyword: ['python', 'java'], geo: 'GB', property: 'youtube',
+  startTime: new Date('2025-10-01'), endTime: new Date('2026-10-01') };
+const timeline = JSON.parse(await googleTrends.interestOverTime(options));
+const regions = JSON.parse(await googleTrends.interestByRegion(options));
+const queries = JSON.parse(await googleTrends.relatedQueries(options));
+const daily = JSON.parse(await googleTrends.dailyTrends({geo: 'US'}));
+const realtime = JSON.parse(await googleTrends.realTimeTrends({geo: 'US'}));
+googleTrends.dailyTrends({geo: 'US'}, (error, json) => {
+  if (error) console.error(error); else console.log(JSON.parse(json));
+});
+```
+
+Supported calls resolve JSON strings, not parsed objects. The three Explore methods return `default.timelineData[]` (plus `averages`), `default.geoMapData[]`, and `default.rankedList[].rankedKeyword[]` respectively. `dailyTrends` returns `default.trendingSearchesDays[].trendingSearches[]`; `realTimeTrends` uses the old library's top-level `storySummaries.trendingStories[]` envelope (not `default`). Callback calls use `(error, json)` and return undefined.
+
+### Differences (npm shim)
+
+- Calls are lazy and cached per shim instance: one Actor run per distinct normalized options payload, including in-flight concurrent requests. Explore collects all three outputs for 1–5 distinct terms on one comparison scale. Identical `dailyTrends` and `realTimeTrends` options share a separate run for the same country. These are paid runs on your account, subject to the Actor pricing above; the tests themselves spend nothing. The default charge cap is $1 per run. To change it or to refresh cached data, create a new instance with `import {createGoogleTrends} from './google-trends-api-compat.mjs'` and `createGoogleTrends({maxTotalChargeUsd: 0.50})`. Tests can inject a client; no token is bundled.
+- `keyword` is a string or array; `geo` is a single uppercase country/region code (geo arrays are unsupported). `startTime` and `endTime` must be Date objects. Their UTC dates map to `customTimeRange`, reversed dates are swapped; defaults are 2004-01-01 through the current UTC day. Hour/minute components are not preserved: Actor custom ranges are date-only. `granularTimeResolution`, `agent`, and unknown options raise instead of being ignored. `hl`, `timezone`, numeric `category`, `property` (`''`, `images`, `news`, `youtube`, `froogle`) and `resolution` map to the corresponding Actor inputs; `froogle` maps to shopping. Default resolution is REGION with a geo, COUNTRY worldwide; explicit resolution is preserved, not Google's automatic per-geo selection.
+- Related queries use the first keyword's top/rising lists, like 4.9.2's first RELATED_QUERIES widget selector. All supplied keywords are still requested and cached. `autoComplete` and `relatedTopics` explicitly fail (no autocomplete output; topics unverified). Trending supports only `category: 'all'`; old letter categories do not exactly match Trending Now categories. `trendDate`, `ns`, and other historical/pagination options fail clearly: there is no old daily archive.
+- Daily and realtime wrappers both return up to 50 current Trending Now searches over 24 hours, not the retired daily list or Knowledge Graph story ranking. Daily returns one group dated at the run's completion (offset by `timezone`), not each trend's start date; realtime returns that date too. The data remain cached until you create a fresh instance. Returned news titles, URLs and sources are from the Actor; article `image`, `snippet`, `timeAgo`, trend/story `image`, `shareUrl`, realtime story IDs (including entries in `trendingStoryIds`) and `endDateForNextRequest` are null because the Actor does not retain them. No fabricated pagination, identifiers or photos. `hideAllImages` is true. Daily related queries and realtime entityNames come from the current trend/related-search strings, not old Knowledge Graph entities.
+- Timeline `formattedTime` comes from the retained Google label. `formattedAxisTime` is a locally formatted UTC start date in `hl`, not Google's original short hourly/weekly axis label. Values are stringified for `formattedValue`; comparison averages are arithmetic means rounded to integers, not a retained Google average. Region `maxValueIndex` is derived from compared values. CITY coordinates and absent geoCode are null, not invented; region hasData is true for retained rows (the Actor discarded missing-data rows). These are documented null exceptions to 4.9.2 value types.
+- Failed runs, error rows, missing requested terms and unaligned comparisons raise instead of inventing data. A failed run is evicted from cache so the caller can deliberately retry later; there is no automatic paid retry.
+
+### Offline npm checks (2026-10-13)
+
+```bash
+cd node
+npm install
+npm test
+# Optional original-library passthrough checks, with HTTPS mocked:
+npm install --no-save --package-lock=false google-trends-api@4.9.2
+npm test
+```
+
+35 tests: 35 passed with google-trends-api 4.9.2; 34 passed and one reference-only skip without it. Tests forbid network and mock Apify with the two board exports above, asserting every retained timeline/region value and all three trends/nine news links. Three full live 4.9.2 Explore responses captured by the board on 2026-10-13 are bundled verbatim in `node/tests/fixtures/live-4.9.2/` with provenance: 31 timeline points, 51 regions, and top/rising query lists. Tests check their field types against board-export output (with documented CITY null exceptions), and every captured value through explicitly reconstructed retained-field parser inputs. Those reconstructed inputs are not live Actor runs. Nonempty query cases are synthetic or reconstructed because the real Actor export query arrays were empty; this does not measure live query completeness. Compared region arrays were empty too. Daily/realtime envelopes are checked against the frozen 4.9.2 README typed pseudocode and our documented detail contract, not captured legacy responses: those endpoints return HTML 404. The sandbox's Explore HTML responses were rate limiting, not proof of an Explore library break. No additional Apify run or credit was used.
+
 ## trending_searches() or dailyTrends() returns 404?
 
 Google no longer serves the old daily-trends and real-time-trends endpoints these libraries call (it moved trending searches to its Trending Now page). We checked on 2026-10-12 from one server:
