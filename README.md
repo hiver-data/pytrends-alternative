@@ -199,7 +199,7 @@ The fast alternative is quicker, and the most-used Actor costs less per result w
 
 Google refuses some requests with HTTP 429. On 2026-10-09 it refused some of this Actor's too: the bench of 19:43 UTC (build 0.1.15) got data in 0 of 2 jobs. Build 0.1.16 waits out a 429 within a fixed time budget instead of stopping at the first one, and the board's daily health check of 2026-10-10 18:35 UTC returned data for all 3 test terms. The Actor never rotates IPs or cookies to get around a refusal, so expect refused terms on some runs; refused terms cost nothing.
 
-Two jobs are a small sample, so read this as a measurement, not a guarantee. The bench runs again after every new build.
+Two jobs are a small sample, so read this as a measurement, not a guarantee. Later builds have not been benched again yet.
 
 ## Limits
 
